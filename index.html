@@ -20,11 +20,12 @@
             <a class="nav" href="#inf">Приветствие</a>
             <a class="nav" href="#test_osa">Личные качества</a>
             <a class="nav" href="#exper">Опыт</a>
-            <a class="nav" href="#contacts">Контакты</a> 
+            <a class="nav" href="#contacts">Контакты</a>
+            <a class="nav" href="#footer">Футер</a> 
         </div>
     </header>
     <section class="info" id="inf">
-        <div class="info__foto animate__animated animate__fadeInLeft animate__slow">
+        <div class="info__foto">
             <img src="img/foto.jpeg" alt="Фотография">
             <h2><span class="foto_aim">Я</span> Евгений Стенин</h2>
             <h1><b>Я джун - начинающий<br>Frontend разработчик</b></h1>
@@ -32,7 +33,7 @@
         <div class="info__welcome animate__animated animate__fadeInRight animate__slow">
             <h2>Привет!</h2>
             <p class="info__welcome__text">Я живу в Казани! И я только начинаю свой путь в разработке,<br> но хочу посвятить этому всю свою жизнь!</p>
-            <a href="#">Скачать резюме</a><br>
+            <a href="img/Rezum_Stenin_EA.pdf"><b>Скачать резюме</b></a><br>
             <label>P.S. Можно не открывать, в нем, пока что, нет интересных достижений в области разработки,<br> но они обязательно будут. Оно лишь может показать на сколько я настойчив!
             </label>
         </div>
@@ -75,11 +76,52 @@
             </div>
         </div>
     </section>
-    <section class="contacts">
-
+    <section class="contacts" id="contacts">
+        <div class="contacts__icon">
+            <i class="fa-regular fa-address-card"></i>
+        </div>
+        <div class="contacts__text">
+            <h6>Вы дошли до конца, значит Вас, все же, что-то заинтересовало!<br>Я оставлю здесь свои контакты, на всякий случай <i class="fa-regular fa-face-smile-wink"></i></h6>
+        </div>
+        <div class="contacts__block">
+            <a href="tel:+79172826545"><b>Вы можете позвонить мне РТ: </b>+7(917)-282-65-45</a>
+            <a href="tel:79095845417"><b>Или по номеру в СПб: </b>+7 (909) 584-54-17</a>
+            <a href="mailto:stenin_evgen@mail.ru" target="_blank"><b>Вы можете написать мне: </b>stenin_evgen@mail.ru</a>
+            <a href="skype:live:stenin_evgen"><b>Можете связаться со мной по Skype:</b> live:stenin_evgen</a>
+            <a href="https://github.com/Zemofei" target="_blank">И еще раз мой GitHab</a>
+            <a href="https://vk.com/e.stenin" target="_blank">И еще раз мой ВКонтакте</a>
+        </div>
     </section>
-    <footer>
-        <div class="footer">Мне не нужен футер в резюме )))</div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__group1">
+                <p>РОССИЯ, Казань, м. Ямашева</p>
+                <p>РОССИЯ, Санкт-Петербург, Мурино, м. Девяткино</p>
+            </div>
+            <div class="footer__group2">
+                <h3>Позвонить мне:</h3>
+                <div class="footer__links">
+                    <a href="tel:79172826545">+7 (917) 282-65-45</a>
+                    <a href="tel:79095845417">+7 (909) 584-54-17</a>
+                </div>
+            </div>
+            <div class="footer__group3">
+                <h3>Написать мне:</h3>
+                <div class="footer__links">
+                    <a href="mailto:stenin_evgen@mail.ru">stenin_evgen@mail.ru</a>
+                </div>
+            </div>
+            <div class="footer__group4">
+                <h3>Интересные ссылки:</h3>
+                <div class="footer__links">
+                    <a href="https://github.com/Zemofei" target="_blank">GitHab</a>
+                    <a href="https://vk.com/e.stenin" target="_blank">ВКонтакте</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright" id="footer">
+            <div class="footer__copyright"><i class="fa-solid fa-registered"></i>STENIN EVGENY ALEXANDROVICH</div>
+        </div>
     </footer>       
 </body>
 </html>
