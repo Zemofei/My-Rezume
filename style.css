@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url(img/Fon.jpg);
+    background-repeat: no-repeat;
+    background-size:100vw;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #e1e8f0;
+    z-index: 1;
+}
+.header__nav {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+.header__nav a {
+    text-decoration: none;
+    color: #735b5b;
+    font-weight: 600;
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+}
+.header__nav a:hover {
+    cursor: pointer;
+}
+.header__nav a::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: #735b5b;
+    transition: width 0.7s ease 0s, left 0.3s ease 0s;
+}
+  
+a:hover::after { 
+    width: 100%; 
+    left: 0; 
+}
+.info {
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+    padding-bottom: 300px;
+}
+.info__foto {
+    padding: 20px;
+    background-color: #FFFAFA;
+    text-align: center;
+    box-shadow: 0 16px 36px #e1e8f0;
+    margin-right: 20px;
+    border-radius: 20px;
+
+}
+.info__foto img {
+    width: 200px;
+}
+.info__foto h1 {
+    font-size: 15px;
+    background-color: #e1e8f0;
+    line-height: 2;
+}
+.info__foto_aim {
+    font-weight: 600;
+    opacity: 0.4;
+}
+.info__welcome {
+    background-color: #b6bfc9;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 100px;
+    align-items: center;
+    align-self: center;
+    box-shadow: 0 16px 36px  #e1e8f0;
+    
+}
+.info__welcome h2 {
+    padding-left: 30px;
+    text-align: left;
+    color: #fff;
+    font-weight: 900;
+    font-size: 35px;
+    opacity: 0.9;
+}
+.info__welcome__text {
+    font-weight: 900;
+    opacity: 0.9;
+    color: #fff;
+    font-size: 25px;
+}
+.info__welcome label {
+    font-size: 15px;
+    font-weight: 900;
+    opacity: 0.9;
+    color: #fff;
+}
+.test_osa {
+    width: 100vw;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background-color: #e8e8e8;
+}
+.test_osa__icon {
+    align-items: center;
+}
+.fa-solid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 100px;
+    opacity: 0.8;
+    color: aqua;
+}
+.test_osa__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.test_osa__text p {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.8;
+}
+footer {
+    width: 100vw;
+    background-color: #735b5b;
+}
+.footer {
+    margin-top: 200px;
+}
+.exper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background-color: #bfbfbf;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #FFFAFA;
+}
+.exper__icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.exper__icon p {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.exper__contain {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;  
+}
+.exper__contain a {
+    font-size: 20px;
+}
+.exper__education {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+}
+.exper__education div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    color: rgb(31, 31, 31);
+    font-weight: 800;
+}
+.exper__education img {
+    width: 80px;
+    height: 120px;
+}
+.exper__education img:hover {
+    transform: scale(5);
+}
+.info__welcome a, .exper__contain a {
+    text-decoration: none;
+    color: rgb(135, 0, 0);
+}
