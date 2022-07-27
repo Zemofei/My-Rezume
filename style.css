@@ -378,6 +378,7 @@ footer a {
     .exper__education_img_3:active{
         transform: scale(5) translate(-50px, -25px);
  }
+}
 @media (max-width: 1024px) {
     * {
         font-size: 15px;
@@ -457,5 +458,5 @@ footer a {
     }
     .exper__education img:hover {
         transform: scale(4);
- }
+    }
 }
