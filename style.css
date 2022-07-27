@@ -203,9 +203,15 @@ a:hover::after {
     height: 120px;
     transition: transform 1s;
 }
-.exper__education img:hover {
-    transform: scale(5);
+.exper__education_img_1:hover{
+    transform: scale(5) translate(100px, -50px);
 }
+.exper__education_img_2:hover{
+    transform: scale(5) translate(0, -50px);
+}
+.exper__education_img_3:hover{
+    transform: scale(5) translate(-100px, -50px);
+}    
 .info__welcome a, .exper__contain a, .contacts__block a {
     text-decoration: none;
     color: rgb(135, 0, 0);
