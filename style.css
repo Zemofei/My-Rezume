@@ -386,23 +386,28 @@ footer a {
         margin: 0;
     }
     .contacts__text {
+        width: 100%;
         padding: 0;
         margin: 0;
-        border-radius: 5px;
+        border-radius: 25px;
+    }
+    .contacts__text h6 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
     .info {
         padding-top: 10px;
+        padding-bottom: 15px;
+        margin-bottom: 0;
         display: flex;
         flex-direction: column;
         gap: 20px;
     }
-    .info__welcome {
+    .info__welcome, .info__foto {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .contacts__text {
-        width: 100%;
-    } 
     .footer__container {
         display: flex;
         flex-direction: column;
@@ -413,4 +418,11 @@ footer a {
     section img {
         width: 50px;
     }
+    .exper__education {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .exper__education img:hover {
+        transform: scale(4);
  }
