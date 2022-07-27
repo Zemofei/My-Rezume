@@ -204,12 +204,21 @@ a:hover::after {
     transition: transform 1s;
 }
 .exper__education_img_1:hover{
+    cursor: pointer;
+}
+.exper__education_img_1:active{
     transform: scale(5) translate(100px, -50px);
 }
 .exper__education_img_2:hover{
+    cursor: pointer;
+}
+.exper__education_img_2:active{
     transform: scale(5) translate(0, -50px);
 }
 .exper__education_img_3:hover{
+    cursor: pointer;
+}
+.exper__education_img_3:active{
     transform: scale(5) translate(-100px, -50px);
 }    
 .info__welcome a, .exper__contain a, .contacts__block a {
