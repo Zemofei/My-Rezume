@@ -329,6 +329,7 @@ footer a {
         font-size: 15px;
     } 
     body {
+        overflow: auto;
         overflow-x: hidden;
         width: 100%;
     }
@@ -348,6 +349,7 @@ footer a {
         font-size: 15px;
     } 
     body {
+        overflow: auto;
         overflow-x: hidden;
         width: 100%;
     }
@@ -366,6 +368,7 @@ footer a {
         font-size: 15px;
     }
     body {
+        overflow: auto;
         overflow-x: hidden;
         width: 100%;
     }
