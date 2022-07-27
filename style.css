@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    max-width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
 }
 header {
@@ -328,10 +329,11 @@ footer a {
     * {
         font-size: 15px;
     } 
-    body {
+    html,body {
         overflow: auto;
         overflow-x: hidden;
         width: 100%;
+        max-width: 100%;
     }
     section img {
         width: 50px;
@@ -348,7 +350,7 @@ footer a {
     * {
         font-size: 15px;
     } 
-    body {
+    html,body {
         overflow: auto;
         overflow-x: hidden;
         width: 100%;
@@ -367,7 +369,7 @@ footer a {
     * {
         font-size: 15px;
     }
-    body {
+    html,body {
         overflow: auto;
         overflow-x: hidden;
         width: 100%;
