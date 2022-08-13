@@ -74,6 +74,9 @@ a:hover::after {
     width: 200px;
 }
 .info__foto h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
     font-size: 15px;
     background-color: #e1e8f0;
     line-height: 2;
@@ -102,7 +105,7 @@ a:hover::after {
     opacity: 0.9;
 }
 .info__welcome__text {
-    font-weight: 900;
+    font-weight: 900px;
     opacity: 0.9;
     color: #fff;
     font-size: 25px;
