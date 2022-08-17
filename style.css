@@ -428,15 +428,13 @@ footer a {
         margin: 0;
     }
     .contacts__text {
-        width: 100%;
-        padding: 0;
+        width: 99%;
         margin: 0;
         border-radius: 25px;
+        text-align: center;
     }
-    .contacts__text h6 {
+    .contacts__text h6 {      
         width: 100%;
-        padding: 0;
-        margin: 0;
     }
     .info {
         padding-top: 10px;
